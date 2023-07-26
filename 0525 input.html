@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 05월 25일 화면구현 실습</title>
+</head>
+<body>
+    <h2><p align="center">2023년 05월 15일 화면구현 실습 내용</p></h2>
+    
+    <p><a href="0601 main.html">Main page</a></p>
+    <p><a href="index.html">Index Page</a></p>
+    
+    
+    <p>User ID: <input type="text" name="id" maxlength="6"><br>
+    User PW: <input type="password" name="pw" maxlength="8"><br></p>
+
+   <p><input type="radio" name="gender">male
+    <input type="radio" name="gender">female</p>
+
+    <p><input type="checkbox" name="영화감상">영화감상
+    <input type="checkbox" name="사진촬영">사진촬영
+    <input type="checkbox" name="운동">운동
+    <input type="checkbox" name="독서">독서</p>
+
+    <p>수량 <input type="number" name="cart" min="1" max="10" value="1"> 개</p>
+
+    <p><input type="color" name="rgb"></p>
+    
+    <p><input type="button" name="button" onclick="alert('안녕하세요. 경복대학교입니다.')" value="Click!"></p>
+
+    <p><input type="date" name="hbd" min="2004-02-16" max="2023-05-25"></p>
+
+    <p><input type="range" name="points" min="0" max="10" value="0"></p>
+
+    <p><input type="month" name="month"></p>
+    <p><input type="week" name="week"></p>
+    <p><input type="time" name="time"></p>
+
+    <p><input type="email" name="email" value="이메일 입력"></p> //이메일 유효성 검사
+
+    <p><input type="tel" name="phone" placeholder="010-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"value="전화번호 입력"> </p> //전화번호 유효성 검사
+    <p> <input type="text" name="phone1" size="3" maxlength="3">&nbsp; - &nbsp;
+        <input type="text" name="phone2" size="4" maxlength="4">&nbsp; - &nbsp;
+        <input type="text" name="phone3" size="4" maxlength="4"></p>
+
+    <p><input type="search" name="wordsearch"><input type="button" name="sbutton" value="search"></p>
+
+<h1>Memo</h1>
+    <p>0525</p>
+    <p> 1. br태그 사용 <br>
+    2. input 태그 <br>
+    → type과 name이 필수로 들어가야하는 태그<br>
+    - type <br>
+        · text <br>
+        · password <br>
+        · radio <br>
+        → name이 같으면 raido 선택지에서 하나만 선택가능<br>
+        · checkbox <br>
+        → 중복체크를 할 떄 사용, name을 사용할 때는 값이 다 달라야함 <br>
+        · number <br>
+        · color<br>
+        · button<br>
+        → onclick=alert : 클릭시 알람창 <br>
+        · date<br>
+        · range<br>
+        · month<br>
+        · week<br>
+        · time<br>
+        · email<br>
+        · tel<br>
+        · search<br>
+    - name<br>
+    - maxlength<br></p>
+    3.&nbsp; non blacking space
+</body>
+</html>
